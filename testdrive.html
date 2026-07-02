@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Book a Test dirve online </title>
+  <link rel="stylesheet" href="style.css">
+<!-- <img src="Header_TD.jpg" alt="img"> -->
+  <style>
+     /*<!-- .img {
+    /*overflow-clip-margin: content-box;
+    overflow: clip; -->
+    /* overflow-x: ; -->
+    overflow-y: ; */
+
+    body {
+      font-family: Arial, sans-serif;
+      background: #f9f9f9;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+    }
+
+    .form-container {
+      align-items: center;
+      justify-items: center;
+      background: #fff;
+      padding: 20px 30px;
+      border-radius: 10px;
+      width: 400px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    .form-container h2 {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    .form-group {
+      margin-bottom: 15px;
+    }
+
+    label {
+      font-size: 14px;
+      display: block;
+      margin-bottom: 5px;
+    }
+
+    select,
+    input[type="text"],
+    input[type="email"],
+    input[type="tel"] {
+      width: 100%;
+      padding: 10px;
+      border-radius: 6px;
+      border: 1px solid #ccc;
+      font-size: 14px;
+    }
+
+    .form-row {
+      display: flex;
+      gap: 10px;
+    }
+
+    .checkbox {
+      margin: 15px 0;
+      font-size: 14px;
+    }
+
+    .submit-btn {
+      width: 100%;
+      padding: 12px;
+      background: #0c8848;
+      border: none;
+      border-radius: 20px;
+      font-size: 16px;
+      font-weight: bold;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+
+    .submit-btn:hover {
+      background: #0eee51d8;
+    }
+
+    h2 {
+      text-align: center;
+      margin-bottom: 10px;
+    }
+
+    p {
+      text-align:start;
+      font-size: 14px;
+      color: #5a2c5c;
+      margin-bottom: 20px;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri,  sans-serif;
+    }
+
+    /* img{ */
+    /* align-items:start;
+      align-items: center;
+      align-items:self-start;
+      height: 100%;
+      width: 30vh;
+      display:block;
+      /* place-items: initial; */
+    /* overflow: hidden;  */
+    /* } */
+  </style>
+</head>
+
+<body>
+  <!-- <img src="Header_TD.jpg" alt="Test Header"> -->
+  <div>
+    <h2>Requst a Test Drive</h2>
+    <!-- <p>Experience the world of Škoda cars, where luxury,<br> comfort and exhilarating performance await.<br> Discover dynamic
+      features,<br> avant-garde technology and sophisticated design with our premium cars.<br> Go ahead, let’s explore with a
+      Škoda by your side. <br>Book a test drive today.</p> -->
+    <div class="form-container">
+      <h2> Test Drive</h2>
+      <form>
+        <div class="form-group">
+          <!-- <label>Model *</label> -->
+          <select required>
+            <option value="">Model*</option>
+            <option>slavia</option>
+            <option>superb</option>
+            <option>kushaq</option>
+            <option>Kodiaq</option>
+            <option>kylaq</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <!-- <label>Full Name *</label> -->
+          <input type="text" placeholder=" Full Name*" required>
+        </div>
+
+        <div class="form-row">
+          <div class="form-group" style="flex:1;">
+            <!-- <label>City *</label> -->
+            <select required>
+              <option value="">City*</option>
+              <option>Ahmedabad</option>
+              <option>Surat</option>
+              <option>Baroda </option>
+              <option>Rajkot</option>
+              <option>Bhavnagar</option>
+            </select>
+          </div>
+          <div class="form-group" style="flex:1;">
+            <!-- <label>Dealer *</label> -->
+            <select required>
+              <option value="">Dealer*</option>
+              <option>Rangat automobile pvt ltd Nehrunagr Ahemdabad</option>
+              <option>Pritam moters Mota varacha surat</option>
+              <option>Kaka moters Univercity Road Vadodara</option>
+              <option>Dev Bhoomi moters pvt,Ltd Ajidem Chokdi Rajkot </option>
+              <option>EVM moters & vehicels India Rupani Circle Bhavanagar</option>
+              <option>Durgesh Moters and vehicels Jamnagr Road </option>
+            </select>
+          </div>
+        </div>
+
+        <div class="form-row">
+          <div class="form-group" style="flex:1;">
+            <!-- <label>Email *</label> -->
+            <input type="email" placeholder="Email*" required>
+          </div>
+          <div class="form-group" style="flex:1;">
+            <!-- <label>Mobile *</label> -->
+            <input type="tel" placeholder=" Mobile*" required>
+          </div>
+        </div>
+
+        <label><strong>Fields marked * are mandatory</strong></label>
+
+        <div class="checkbox">
+          <input type="checkbox" required> * By submitting, I agree to the <a href="#">Privacy Policy</a>
+        </div>
+
+        <button type="submit" class="submit-btn">Submit</button>
+      </form>
+    </div>
+  </div>
+</body>
+
+</html>
